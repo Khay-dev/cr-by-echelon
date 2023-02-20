@@ -1,0 +1,44 @@
+.section-1 {
+    height: 50vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: sticky;
+    background-color: #c5aa73;
+    color: #fff;
+}
+
+nav .main-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+.about {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    text-align: center;
+}
+
+.about p {
+    margin-bottom: 16px;
+    color: #334958;
+    font-size: 16px;
+    line-height: 1.45;
+    font-weight: 400;
+
+}
+
+.about button {
+    padding: 3px;
+    color: #334958;
+    background-color: none;
+}
