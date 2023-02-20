@@ -1,16 +1,12 @@
 .section-1 {
-    height: 50vh;
+    height: 30%;
+    display: grid;
+    place-items: center;
+    padding: 80px 0;
+    background-color: #334958;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    position: sticky;
-    background-color: #c5aa73;
-    color: #fff;
-}
+
 
 nav .main-nav {
     display: flex;
@@ -20,17 +16,13 @@ nav .main-nav {
 
 
 .about {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     width: 70%;
     text-align: center;
 }
 
 .about p {
     margin-bottom: 16px;
-    color: #334958;
+    color: #fff;
     font-size: 16px;
     line-height: 1.45;
     font-weight: 400;

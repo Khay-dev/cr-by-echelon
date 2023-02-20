@@ -1,3 +1,37 @@
  .section-2 {
-     padding: 0 40px;
+     height: 100vh;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 50px;
+ }
+
+
+ .img {
+     width: 50%;
+ }
+
+ img {
+     border-radius: 15px;
+ }
+
+ .room-det {
+     display: flex;
+     flex-direction: column;
+     gap: 1.2rem;
+     width: 70%;
+ }
+
+ .room-header {
+     font-weight: 500;
+     font-size: 30px;
+     line-height: 1;
+     color: #334958;
+ }
+
+ .room-text {
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.45;
+     color: #334958;
  }
