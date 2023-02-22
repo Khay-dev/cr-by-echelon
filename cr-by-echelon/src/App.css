@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 
 
 *,
@@ -18,7 +18,7 @@ body {
   line-height: 1.5;
   text-rendering: optimizeSpeed;
   margin: 0;
-  font-family: 'Vollkorn', serif;
+  font-family: 'Aboreto', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

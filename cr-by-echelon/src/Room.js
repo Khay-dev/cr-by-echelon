@@ -21,12 +21,12 @@ const Room = () => {
                 <img src={img} alt="" />
             </div>
             <div className="room-det">
-                <div className="room-header">Rooms</div>
-                <p className="room-text">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+                <div className="room-header">Our Apartments</div>
+                <p className="room-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia enim ea perspiciatis cumque.</p>
                 <div className="room-list">
-                    <div className="room-a" onClick={changeC} >Presidential Suite</div>
-                    <div className="room-b" onClick={changeB} >Orthodox Suite</div>
-                    <div className="room-c" onClick={changeA
+                    <div className="room-a room" onClick={changeC} >Presidential Suite</div>
+                    <div className="room-b room" onClick={changeB} >Orthodox Suite</div>
+                    <div className="room-c room" onClick={changeA
                     }> Junior Suite</div>
                 </div>
                 <button>See more</button>

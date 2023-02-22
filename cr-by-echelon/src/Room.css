@@ -1,9 +1,10 @@
  .section-2 {
-     height: 100vh;
+     height: 80%;
      display: flex;
-     justify-content: space-between;
+     justify-content: center;
      align-items: center;
-     padding: 0 50px;
+     padding: 50px;
+     gap: 4rem;
  }
 
 
@@ -18,13 +19,13 @@
  .room-det {
      display: flex;
      flex-direction: column;
-     gap: 1.2rem;
-     width: 70%;
+     gap: 1rem;
+     width: 50%;
  }
 
  .room-header {
      font-weight: 500;
-     font-size: 30px;
+     font-size: 40px;
      line-height: 1;
      color: #334958;
  }
@@ -34,4 +35,58 @@
      font-size: 16px;
      line-height: 1.45;
      color: #334958;
+ }
+
+ .room-list .room {
+     border: 1px #334958 solid;
+     padding: 10px;
+     cursor: pointer;
+     width: 50%;
+     color: #334958;
+ }
+
+ .room-b {
+     margin: 10px 0;
+ }
+
+ .room-det button {
+     width: 20%;
+     color: #334958;
+ }
+
+
+ @media screen and (min-width:768px)and (max-width:1025px) {
+  .section-2{
+    gap: 2.5rem;
+  }
+  .room-list .room{
+    width: 65%;
+  }
+   .room-det button{
+    width: 40%;
+   }
+ }
+
+ @media screen and (max-width:767px) {
+     .section-2 {
+         flex-wrap: wrap;
+         padding: 50px 20px;
+         gap: 2rem;
+     }
+
+     .img,
+     .room-det,
+     .room-list .room {
+         width: 100%;
+     }
+
+     .room-det {
+         align-items: center;
+         text-align: center;
+     }
+
+     .room-det button {
+         width: 40%;
+     }
+
  }
