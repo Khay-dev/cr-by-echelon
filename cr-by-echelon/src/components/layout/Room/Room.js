@@ -1,7 +1,7 @@
 import './Room.css'
-import image1 from "../src/img/room.JPG";
-import image2 from "../src/img/junior.JPG";
-import image3 from "../src/img/orthdox.JPG";
+import image1 from "../../../img/room.JPG";
+import image2 from "../../../img/junior.JPG";
+import image3 from "../../../img/orthdox.JPG";
 import { useState } from "react"
 
 const Room = () => {
