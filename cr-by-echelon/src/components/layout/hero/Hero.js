@@ -2,8 +2,8 @@ import Nav from "../Nav";
 import Room from '../Room/Room';
 import Amenities from '../Amenities/Amenities';
 import Slider from '../Slider/Slider';
-import Contact from '../Contact/Contact';
 import About from "../About/About"
+import Footer from "../Footer"
 import "./hero.css"
 
 
@@ -14,11 +14,11 @@ const Hero = () => {
                 <Nav />
                 <h2> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
             </div>
-<About/>
+            <About />
             <Room />
             <Amenities />
             <Slider />
-            <Contact />
+            <Footer />
         </div>
     );
 }
