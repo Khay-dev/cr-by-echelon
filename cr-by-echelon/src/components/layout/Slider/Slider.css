@@ -64,3 +64,20 @@ body {
     font-size: clamp(1.2rem, 2vw + 1rem, 2.2rem);
     color: #334958;
 }
+
+
+@media screen and (min-width:768px)and (max-width:1025px) {
+    .slide-img {
+        width: 70%;
+    }
+}
+
+    @media screen and (max-width:767px) {
+        .slide-img {
+            width: 100%;
+        }
+
+        .slide {
+            padding: 50px 20px;
+        }
+    }

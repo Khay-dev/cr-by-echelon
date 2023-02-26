@@ -70,6 +70,40 @@
     padding: 50px;
 }
 
+.final-footer .copy {
+    width: 60%;
+}
+
+@media screen and (max-width:767px) {
+    .main-footer {
+        padding: 50px 20px;
+    }
+
+    .section-5-main {
+        flex-wrap: wrap;
+    }
+
+    .section-5-main .text {
+        gap: 5px;
+        width: 100%;
+    }
+
+    .details {
+        width: 100%;
+        text-align: center;
+    }
+
+    .final-footer {
+        flex-wrap: wrap;
+        padding: 50px 20px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .final-footer .copy {
+        width: 100%;
+    }
+}
 
 /* 
 * {
