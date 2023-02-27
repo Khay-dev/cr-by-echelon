@@ -3,7 +3,17 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    color: #fff;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+
+nav a {
+    color: #c5aa73;
 }
 
 nav .main-nav {
@@ -11,3 +21,10 @@ nav .main-nav {
     justify-content: space-between;
     gap: 50px;
 }
+
+/* .scroll {
+    background-color: #fff;
+    transition: all .5s ease-in-out;
+    color: #fff3ff;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+} */

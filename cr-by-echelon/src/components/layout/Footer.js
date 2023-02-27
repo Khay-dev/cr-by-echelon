@@ -1,5 +1,8 @@
 import "./Footer.css"
 const Footer = () => {
+    let top = () => {
+        window.scrollTo(0, 0)
+    }
     return (
         <footer>
             <div className="main-footer">
@@ -16,9 +19,11 @@ const Footer = () => {
                 </div>
 
             </div>
-            <div className="final-footer">
+            <div className="final-footer" >
                 <div className="copy">Copyright © COOPERATE RESIDENCE by ECHELON 2023 </div>
                 <div className="us">WEBSITE BY AUSDAEUR.CO</div>
+                <div className="btt" onClick={top} >^</div>
+
             </div>
         </footer>
     );

@@ -25,8 +25,7 @@
 
  .room-header {
      font-weight: 500;
-     font-size: 40px;
-     line-height: 1;
+    font-size: clamp(2rem, 2vw + 1rem, 3.2rem);     line-height: 1;
      color: #334958;
  }
 
@@ -56,15 +55,17 @@
 
 
  @media screen and (min-width:768px)and (max-width:1025px) {
-  .section-2{
-    gap: 2.5rem;
-  }
-  .room-list .room{
-    width: 65%;
-  }
-   .room-det button{
-    width: 40%;
-   }
+     .section-2 {
+         gap: 2.5rem;
+     }
+
+     .room-list .room {
+         width: 65%;
+     }
+
+     .room-det button {
+         width: 40%;
+     }
  }
 
  @media screen and (max-width:767px) {

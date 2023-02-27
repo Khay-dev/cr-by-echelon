@@ -1,13 +1,16 @@
 import "./nav.css"
-
+import { Link } from "react-router-dom"
 const Nav = () => {
+    // get back to this
+    // to change bg when user scroll    
+
     return (
         <nav>
-            <div className="logo">LOGO</div>
+            <Link to="/" className="logo">LOGO</Link>
             <div className="main-nav">
-                <div className="nav-1">Home</div>
-                <div className="nav-2">Gallery</div>
-                <div className="nav-3">Contact Us</div>
+                <Link to="/" className="nav-1">Home</Link>
+                <Link to="/gallery" className="nav-2">Gallery</Link>
+                <Link to="/contact" className="nav-3">Contact Us</Link>
             </div>
         </nav>
     );

@@ -61,8 +61,8 @@ body {
     line-height: 1;
     text-align: center;
     padding-top: 17px;
-    font-size: clamp(1.2rem, 2vw + 1rem, 2.2rem);
-    color: #334958;
+    font-size: clamp(2rem, 2vw + 1rem, 3.2rem);
+          color: #334958;
 }
 
 
