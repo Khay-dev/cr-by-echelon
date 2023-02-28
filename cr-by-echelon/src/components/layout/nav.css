@@ -3,18 +3,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    z-index: 99;
+    z-index: 9999;
 }
 
-nav a {
-    color: #c5aa73;
-}
+
 
 nav .main-nav {
     display: flex;

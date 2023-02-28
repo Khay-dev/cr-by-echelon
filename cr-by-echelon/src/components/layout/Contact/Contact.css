@@ -1,0 +1,79 @@
+.section-5 {
+    background: #334958;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    padding-top: 50px;
+}
+
+.main-contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contact-dets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 2.5rem;
+    width: 40%;
+}
+
+.contact-dets .address {
+    line-height: 1.45;
+    font-weight: 500;
+    color: #fff;
+    font-size: 22px;
+}
+
+.contact-dets .mail,
+.contact-dets .call {
+    line-height: 1.45;
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact-text {
+    font-weight: 600;
+    line-height: 1.45;
+    color: #fff;
+    width: 40%;
+    font-weight: 400;
+    font-size: clamp(1.8rem, 3vw + 1rem, 3.4rem);
+}
+
+
+
+.submit-btn {
+    width: 30%;
+    color: #334958;
+}
+
+@media screen and (min-width:768px)and (max-width:1025px) {
+    .section-5 {
+        height: auto;
+        padding-top: 130px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .section-5 {
+        padding: 120px 20px;
+        height: auto;
+        text-align: center;
+    }
+
+    .contact-dets,
+    .contact-text {
+        width: 100%;
+    }
+
+    .main-contact {
+        flex-wrap: wrap;
+    }
+
+}

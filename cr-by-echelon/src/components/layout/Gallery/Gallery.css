@@ -11,13 +11,22 @@
     grid-template-columns: repeat(4, minmax(280px, 1fr));
 }
 
+.gallery-title {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../../../img/hero.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
 .gallery-title h2 {
     font-weight: 500;
     font-size: clamp(2rem, 2vw + 1rem, 3.2rem);
     line-height: 1;
     margin-bottom: 40px;
     text-align: center;
-    color: #334958;
+    color: #fff;
 }
 
 .gallery-title p {
@@ -26,9 +35,17 @@
     line-height: 1.75;
     font-weight: 400;
     text-align: center;
-    color: #334958;
+    color: #fff;
+    text-align: center;
 }
 
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.75;
+    font-weight: 400;
+    color: #334958;
+}
 
 
 @media screen and (min-width:768px)and (max-width:1025px) {

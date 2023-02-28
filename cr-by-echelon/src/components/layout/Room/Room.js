@@ -2,6 +2,7 @@ import './Room.css'
 import image1 from "../../../img/room.JPG";
 import image2 from "../../../img/junior.JPG";
 import image3 from "../../../img/orthdox.JPG";
+import { Link } from 'react-router-dom';
 import { useState } from "react"
 
 const Room = () => {
@@ -29,7 +30,7 @@ const Room = () => {
                     <div className="room-c room" onClick={changeA
                     }> Junior Suite</div>
                 </div>
-                <button>See more</button>
+                <Link to={"/Apartment"}><button> More Details</button></Link>
             </div>
         </div>
     );

@@ -1,0 +1,80 @@
+#apartment {
+    padding: 100px 50px;
+    display: grid;
+    place-items: center;
+}
+
+.apartment-title {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../../img/hero.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.apartment-title h2 {
+    font-weight: 500;
+    font-size: clamp(2rem, 2vw + 1rem, 3.2rem);
+    line-height: 1;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.apartment-title p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.75;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    text-align: center;
+}
+
+.apartment-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.room-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #c5aa73;
+}
+
+.room-img {
+    width: 40%;
+}
+
+.room-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+}
+
+.room-details .room-name {
+    font-weight: 500;
+    font-size: clamp(2rem, 2vw + 1rem, 3.2rem);
+    line-height: 1;
+    color: #334958
+}
+
+.room-details .main-dets {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.45;
+    color: #334958
+}
+
+.room-details button {
+    width: 30%;
+    color: #334958;
+}

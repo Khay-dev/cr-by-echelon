@@ -32,13 +32,13 @@ const Gallery = () => {
 
     ]
 
-    return (<div className="section-new">
-        <Nav />
+    return (<div className="section-4">
+        <div className="gallery-title">
+            <Nav />
+            <h2> OUR GALLERY</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis nisi delectus facere dolor asperiores officiis eveniet harum architecto quasi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, porro.</p>
+        </div>
         <div className="gallery">
-            <div className="gallery-title">
-                <h2> OUR GALLERY</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis nisi delectus facere dolor asperiores officiis eveniet harum architecto quasi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, porro.</p>
-            </div>
             <div className="gallery-main">
                 {
                     cards.map((card) => (
@@ -46,7 +46,7 @@ const Gallery = () => {
                             <div className="card-img">
                                 <img src={card.image} alt="" />
                             </div>
-                            <div>{card.title}</div>
+                            <div className="card-text">{card.title}</div>
                         </div>
                     ))}
             </div>

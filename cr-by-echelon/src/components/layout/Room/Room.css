@@ -25,7 +25,8 @@
 
  .room-header {
      font-weight: 500;
-    font-size: clamp(2rem, 2vw + 1rem, 3.2rem);     line-height: 1;
+     font-size: clamp(2rem, 2vw + 1rem, 3.2rem);
+     line-height: 1;
      color: #334958;
  }
 
@@ -36,12 +37,22 @@
      color: #334958;
  }
 
+ .room-list {
+     margin: 10px 0px;
+
+ }
+
  .room-list .room {
-     border: 1px #334958 solid;
      padding: 10px;
      cursor: pointer;
      width: 50%;
-     color: #334958;
+     color: #fff;
+     background: #334958;
+ }
+
+ .room:hover {
+     transform: translateX(10px);
+     transition: transform 200ms ease-in;
  }
 
  .room-b {
