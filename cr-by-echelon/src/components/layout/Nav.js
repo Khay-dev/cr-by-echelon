@@ -20,15 +20,15 @@ const Nav = () => {
 
     return (
         <nav style={{
-            backgroundColor: scrollPosition > 40 ? "#fff" : "transparent",
+            backgroundColor: scrollPosition > 40 ? "#c5aa73" : "transparent",
             transition: "background-color 300ms ease-in-out",
 
         }}>
-            <Link to="/" className="logo" style={{ color: scrollPosition > 40 ? "#334958" : "#fff" }}>LOGO</Link>
+            <Link to="/" className="logo" >LOGO</Link>
             <div className="main-nav" >
-                <Link to="/" className="nav-1" style={{ color: scrollPosition > 40 ? "#334958" : "#fff" }}>Home</Link>
-                <Link to="/gallery" className="nav-2" style={{ color: scrollPosition > 40 ? "#334958" : "#fff" }}>Gallery</Link>
-                <Link to="/contact" className="nav-3" style={{ color: scrollPosition > 40 ? "#334958" : "#fff" }}>Contact Us</Link>
+                <Link to="/" className="nav-1" >Home</Link>
+                <Link to="/gallery" className="nav-2" >Gallery</Link>
+                <Link to="/contact" className="nav-3" >Contact Us</Link>
             </div>
         </nav >
     );

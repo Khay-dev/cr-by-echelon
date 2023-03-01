@@ -12,12 +12,13 @@
 }
 
 .gallery-title {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../../../img/hero.JPG);
+    background-image: linear-gradient(rgba(51, 73, 88, 0.96), rgba(51, 73, 88, 0.96)), url(../../../img/bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: center;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    background-size: cover;
+    padding: 20px;
+    padding: 100px 50px 50px;
+
 }
 
 .gallery-title h2 {
@@ -30,6 +31,7 @@
 }
 
 .gallery-title p {
+    font-family: 'Mulish', sans-serif;
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.75;
@@ -41,10 +43,11 @@
 
 
 .card-text {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.75;
     font-weight: 400;
     color: #334958;
+    margin-top: 20px;
 }
 
 

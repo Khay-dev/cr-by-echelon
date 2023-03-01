@@ -8,12 +8,18 @@ import "./home.css"
 
 
 const Hero = () => {
-    
+
     return (
         <div className="home">
             <div className="hero">
                 <Nav />
-                <h2> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+                <div className="main-home">
+                    <div className="home-img">
+                        <h2>Cooperate Residence <br /> Upscaling Luxury  <br /> Limitless Style </h2>
+                    </div>
+                </div>
+
+
             </div>
             <About />
             <Room />

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { useState } from "react"
 
 const Room = () => {
-    const [img, setImg] = useState(image1)
+    const [img, setImg] = useState(image2)
     let changeC = () => {
         setImg(image1)
     }
@@ -23,12 +23,13 @@ const Room = () => {
             </div>
             <div className="room-det">
                 <div className="room-header">Our Apartments</div>
-                <p className="room-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia enim ea perspiciatis cumque.</p>
+                <p className="room-text">Our suites and rooms are furnished with your comfort and leisure in mind. The setting on the property is tranquil, quiet, and soothing.
+                    It is ideal for families but even more so for a personal break away.</p>
                 <div className="room-list">
-                    <div className="room-a room" onClick={changeC} >Presidential Suite</div>
+                    <div className="room-a room" onClick={changeA} >Junior Suite</div>
                     <div className="room-b room" onClick={changeB} >Orthodox Suite</div>
-                    <div className="room-c room" onClick={changeA
-                    }> Junior Suite</div>
+                    <div className="room-c room" onClick={changeC
+                    }> Presidential Suite</div>
                 </div>
                 <Link to={"/Apartment"}><button> More Details</button></Link>
             </div>

@@ -2,10 +2,9 @@ import './About.css'
 const About = () => {
     return (
         <div className="section-1">
-            <div className="section-title"> COOPERATE RESIDENCE </div>
+            <div className="section-title"> Cooperate Residence </div>
             <div className="about">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, architecto magni? Quibusdam aut, dolorum expedita quisquam temporibus in fugit aperiam reprehenderit animi ipsam quis et sapiente quia veniam maxime fuga Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione placeat accusantium esse ducimus.</p>
-                <button>See more</button>
+                <p>The top-tier, opulent and elegant hotel Echelon Heights strives to provide the greatest services, So we present to you Cooperate Residence by Echelon Heights  which excels at hospitality and is eager to receive and offer top-notch comfort and relaxation to all visitors with its style and richness. While being in close proximity to numerous other services and attractions in the area, the apartment offers a relaxing and peaceful setting.Cooperate Residence by Echelon Heights offers the highest level of luxury and outstanding services, Home away from home indeed.</p>
             </div>
         </div>
     );

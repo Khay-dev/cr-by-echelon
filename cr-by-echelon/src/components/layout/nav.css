@@ -10,17 +10,12 @@ nav {
     z-index: 9999;
 }
 
-
+nav a {
+    color: #fff;
+}
 
 nav .main-nav {
     display: flex;
     justify-content: space-between;
     gap: 50px;
 }
-
-/* .scroll {
-    background-color: #fff;
-    transition: all .5s ease-in-out;
-    color: #fff3ff;
-    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
-} */
