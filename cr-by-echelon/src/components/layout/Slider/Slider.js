@@ -37,13 +37,13 @@ export default function Slider() {
                     <div className="slide-img"><img src={image1} alt="" /></div>
                     <div className="slide-text">Lorem ipsum dolor.</div>
                 </div></SwiperSlide>
-                <SwiperSlide><div className="slide">   <div className="slide-img"><img src={image2} alt="" /></div>
+                <SwiperSlide><div className="slide">   <div className="slide-img"><img src={image2} alt="sliders" /></div>
                     <div className="slide-text">Lorem ipsum dolor.</div></div></SwiperSlide>
-                <SwiperSlide><div className="slide">   <div className="slide-img"><img src={image1} alt="" /></div>
+                <SwiperSlide><div className="slide">   <div className="slide-img"><img src={image1} alt="sliders" /></div>
                     <div className="slide-text">Lorem ipsum dolor.</div></div></SwiperSlide>
-                <SwiperSlide><div className="slide">   <div className="slide-img"><img src={image2} alt="" /></div>
+                <SwiperSlide><div className="slide">   <div className="slide-img"><img src={image2} alt="sliders" /></div>
                     <div className="slide-text">Lorem ipsum dolor.</div></div></SwiperSlide>
-                <SwiperSlide><div className="slide">   <div className="slide-img"><img src={image1} alt="" /></div>
+                <SwiperSlide><div className="slide">   <div className="slide-img"><img src={image1} alt="sliders" /></div>
                     <div className="slide-text">Lorem ipsum dolor.</div></div></SwiperSlide>
             </Swiper>
         </>

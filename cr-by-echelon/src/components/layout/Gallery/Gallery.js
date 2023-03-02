@@ -44,7 +44,7 @@ const Gallery = () => {
                     cards.map((card) => (
                         <div className="gallery-card" key={card.id}>
                             <div className="card-img">
-                                <img src={card.image} alt="" />
+                                <img src={card.image} alt="our hotel" />
                             </div>
                             <div className="card-text">{card.title}</div>
                         </div>
