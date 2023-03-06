@@ -7,7 +7,6 @@ import image2 from "../../../img/junior.JPG";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 import "./Slider.css";
 
 // import required modules
@@ -15,7 +14,9 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function Slider() {
     return (
+
         <>
+
             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}

@@ -43,10 +43,10 @@ const Room = () => {
                     It is ideal for families but even more so for a personal break away.</p>
                 <div className="room-list">
                     <div className="room-a room" data-index={0} onClick={handleButtonClick} >Junior Suite</div>
-                    <div className="room-b room" data-index={1} onClick={handleButtonClick} >Orthodox Suite</div>
+                    <div className="room-b room" data-index={1} onClick={handleButtonClick} >Executive Suite</div>
                     <div className="room-c room" data-index={2} onClick={handleButtonClick} > Presidential Suite</div>
                 </div>
-                <Link to={"/Apartment"}><button> More Details</button></Link>
+                <Link to={"/Apartment"}><button class="custom-btn btn-11">Read More</button></Link>
             </div>
         </div >
     );

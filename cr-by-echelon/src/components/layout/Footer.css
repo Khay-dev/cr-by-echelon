@@ -73,10 +73,14 @@
 }
 
 .final-footer .copy {
-    width: 30%;
+    width: 35%;
 }
 
 .btt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
     border: 1px solid #fff;
     padding: 20px;
     width: 50px;

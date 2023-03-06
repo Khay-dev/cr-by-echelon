@@ -19,3 +19,12 @@ nav .main-nav {
     justify-content: space-between;
     gap: 50px;
 }
+
+.nav-toggle {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 2rem;
+    display: none;
+}
