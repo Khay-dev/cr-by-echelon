@@ -1,16 +1,19 @@
-
+import { IoRestaurantSharp, IoBarbellSharp, IoStorefrontSharp } from "react-icons/io5"
+import { HiLightBulb } from "react-icons/hi";
+import { MdSecurity, MdWifi, MdRoomService } from "react-icons/md";
+import { FaSwimmingPool } from "react-icons/fa"
 import './Amenities.css'
 
 const Amenities = () => {
     let cards = [
-        { name: "Restaurant", icon: "yes", id: crypto.randomUUID() },
-        { name: "Fitness Center", icon: "yes", id: crypto.randomUUID() },
-        { name: "Store", icon: "yes", id: crypto.randomUUID() },
-        { name: "24 Hours Power", icon: "yes", id: crypto.randomUUID() },
-        { name: "Security", icon: "yes", id: crypto.randomUUID() },
-        { name: "Swimming Pool", icon: "yes", id: crypto.randomUUID() },
-        { name: "High Speed Wifi", icon: "yes", id: crypto.randomUUID() },
-        { name: "24 Hours Service", icon: "yes", id: crypto.randomUUID() }
+        { name: "Restaurant", icon: <IoRestaurantSharp />, id: crypto.randomUUID() },
+        { name: "Fitness Center", icon: <IoBarbellSharp />, id: crypto.randomUUID() },
+        { name: "Store", icon: <IoStorefrontSharp />, id: crypto.randomUUID() },
+        { name: "24 Hours Power", icon: <HiLightBulb />, id: crypto.randomUUID() },
+        { name: "Security", icon: <MdSecurity />, id: crypto.randomUUID() },
+        { name: "Swimming Pool", icon: <FaSwimmingPool />, id: crypto.randomUUID() },
+        { name: "High Speed Wifi", icon: <MdWifi />, id: crypto.randomUUID() },
+        { name: "24 Hours Service", icon: <MdRoomService />, id: crypto.randomUUID() }
     ]
 
 

@@ -12,7 +12,7 @@
 }
 
 .gallery-title {
-    background-image: linear-gradient(rgba(51, 73, 88, 0.96), rgba(51, 73, 88, 0.96)), url(../../../img/bg.jpg);
+    background-image: linear-gradient(rgba(12, 44, 40, 0.96), rgba(12, 44, 40, 0.96)), url(../../../img/bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -46,7 +46,7 @@
     font-size: 18px;
     line-height: 1.75;
     font-weight: 400;
-    color: #334958;
+    color: #073c36;
     margin-top: 20px;
 }
 
@@ -66,5 +66,13 @@
     .gallery-main {
         grid-template-columns: repeat(1, minmax(80px, 1fr));
         gap: 1.5rem;
+    }
+
+    .gallery-title {
+        padding: 120px 20px 50px;
+    }
+
+    .card-text {
+        text-align: center;
     }
 }

@@ -1,6 +1,6 @@
 .hero {
     height: 100vh;
-    background-image: linear-gradient(rgba(51, 73, 88, 0.96), rgba(51, 73, 88, 0.96)), url(../../../img/bg.jpg);
+    background-image: linear-gradient(rgba(12, 44, 40, 0.96), rgba(12, 44, 40, 0.96)), url(../../../img/bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -11,7 +11,7 @@
 }
 
 .hero h2 {
-    font-size: clamp(1rem, 3vw + 1rem, 3.4rem);
+    font-size: clamp(1.85rem, 3vw + 1rem, 3.4rem);
     line-height: 1;
     color: #fff;
     width: 80%;
@@ -26,14 +26,14 @@
 .main-home {
     display: grid;
     place-items: center;
-    padding-top: 50px;
+    padding-top: 90px;
     width: 80%;
     height: 100%;
 }
 
 .home-img {
     width: 100%;
-    height: 100%;
+    height: 90%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
         url(../../../img/home.jpg);
     background-repeat: no-repeat;
@@ -58,8 +58,8 @@
     }
 
     .hero h2 {
-        left: 57%;
-        width: 100%;
-        top: 43%;
+        left: 50%;
+        width: 90%;
+        top: 50%;
     }
 }

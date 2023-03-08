@@ -12,10 +12,13 @@
     font-weight: 500;
     font-size: clamp(2rem, 2vw + 1rem, 3.2rem);
     line-height: 1.45;
-    color: #334958;
+    color: #073c36;
     text-align: center;
 }
 
+.section-1-img {
+    width: 10%;
+}
 
 .about {
     width: 70%;
@@ -24,12 +27,17 @@
 
 .about p {
     font-family: 'Mulish', sans-serif;
-    color: #334958;
+    color: #073c36;
     font-size: 16px;
     line-height: 1.75;
     font-weight: 400;
 }
 
+@media screen and (min-width:768px)and (max-width:1025px) {
+    .section-1-img {
+        width: 20%;
+    }
+}
 
 @media screen and (max-width:767px) {
     .about {
@@ -37,6 +45,10 @@
     }
 
     .section-1 {
-        padding: 50px 30px;
+        padding: 50px 20px;
+    }
+
+    .section-1-img {
+        width: 60%;
     }
 }

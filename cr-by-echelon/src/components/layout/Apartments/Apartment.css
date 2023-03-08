@@ -5,7 +5,7 @@
 }
 
 .apartment-title {
-    background-image: linear-gradient(rgba(51, 73, 88, 0.96), rgba(51, 73, 88, 0.96)), url(../../../img/bg.jpg);
+    background-image: linear-gradient(rgba(12, 44, 40, 0.96), rgba(12, 44, 40, 0.96)), url(../../../img/bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -65,7 +65,7 @@
     font-weight: 500;
     font-size: clamp(2rem, 2vw + 1rem, 3.2rem);
     line-height: 1;
-    color: #334958
+    color: #073c36
 }
 
 .room-details .main-dets {
@@ -73,14 +73,14 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.45;
-    color: #334958;
+    color: #073c36;
 
 }
 
 .room-details button {
     font-family: 'Mulish', sans-serif;
     padding: 10px;
-    color: #334958;
+    color: #073c36;
 }
 
 @media screen and (max-width:767px) {
@@ -93,7 +93,7 @@
     }
 
     .apartment-title {
-        padding: 100px 20px 50px 20px;
+        padding: 120px 20px 50px 20px;
     }
 
     .room-card {
@@ -105,8 +105,6 @@
         height: 100%;
     }
 
-    .room-details button {
-        width: 50%;
-    }
+    
 
 }

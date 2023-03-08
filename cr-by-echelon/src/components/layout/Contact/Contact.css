@@ -1,5 +1,5 @@
 .section-5 {
-    background-image: linear-gradient(rgba(51, 73, 88, 0.96), rgba(51, 73, 88, 0.96)), url(../../../img/bg.jpg);
+    background-image: linear-gradient(rgba(12, 44, 40, 0.96), rgba(12, 44, 40, 0.96)), url(../../../img/bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -55,7 +55,7 @@
 
 .submit-btn {
     width: 30%;
-    color: #334958;
+    color: #073c36;
 }
 
 @media screen and (min-width:768px)and (max-width:1025px) {
@@ -77,8 +77,16 @@
         width: 100%;
     }
 
-    .main-contact {
-        flex-wrap: wrap;
+    .contact-dets {
+        padding: 0px;
     }
 
+    .main-contact {
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+    .contact-dets .address {
+        font-size: 18px;
+    }
 }

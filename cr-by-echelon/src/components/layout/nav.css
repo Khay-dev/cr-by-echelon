@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 25px 40px;
     position: fixed;
     top: 0;
     right: 0;
@@ -10,8 +10,18 @@ nav {
     z-index: 9999;
 }
 
+nav .logo {
+    width: 17%;
+
+}
+
+.new-logo {
+    width: 5%;
+}
+
 nav a {
     color: #fff;
+    font-size: 18px;
 }
 
 nav .main-nav {
@@ -20,11 +30,74 @@ nav .main-nav {
     gap: 50px;
 }
 
-.nav-toggle {
+
+nav .nav-btn {
+    padding: 5px;
+    cursor: pointer;
     background: transparent;
     border: none;
-    cursor: pointer;
     outline: none;
-    font-size: 2rem;
     display: none;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width:768px)and (max-width:1025px) {
+    nav .logo {
+        width: 25%;
+    }
+
+    .new-logo {
+        width: 7%;
+    }
+
+    nav .main-nav {
+        gap: 40px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    nav {
+        padding: 15px 20px;
+    }
+
+    nav .nav-btn {
+        display: block;
+        color: #fff;
+    }
+
+    nav .logo {
+        width: 60%;
+    }
+
+    .new-logo {
+        width: 20%;
+    }
+
+    nav .main-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 70%;
+        width: 100%;
+        box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        background-color: #073c36;
+        color: black;
+        transition: 1s;
+        transform: translateY(-100vh);
+        z-index: 100;
+    }
+
+    nav .responsive_nav {
+        transform: none;
+    }
+
+    .nav-close-btn {
+        margin-top: 10px;
+    }
 }

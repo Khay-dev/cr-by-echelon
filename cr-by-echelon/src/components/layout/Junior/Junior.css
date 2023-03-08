@@ -36,11 +36,11 @@ body {
 }
 
 .junior-title {
-    background-image: linear-gradient(rgba(51, 73, 88, 0.96), rgba(51, 73, 88, 0.96)), url(../../../img/bg.jpg);
+    background-image: linear-gradient(rgba(12, 44, 40, 0.96), rgba(12, 44, 40, 0.96)), url(../../../img/bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 80px 50px 35px;
+    padding: 90px 50px 35px;
 }
 
 .junior-title h2,
@@ -71,7 +71,7 @@ body {
 .slide-facilities {
     height: auto;
     padding: 50px;
-    background-color: #c5aa73;
+    background-color: #d48c46;
 }
 
 .facility-title {
@@ -101,12 +101,12 @@ body {
 
 .page a .previous-page,
 .page a .next-page {
-    color: #334958;
+    color: #073c36;
     display: flex;
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    border: 1px #c5aa73 dotted;
+    border: 1px #d48c46 dotted;
     padding: 20px;
 }
 
@@ -132,12 +132,6 @@ body {
     .main-facility ul {
         grid-template-columns: repeat(2, minmax(250px, 1fr));
     }
-
-    /* 
-    .page .previous-page,
-    .page .next-page {
-        width: 35%;
-    } */
 
 
 }
@@ -185,9 +179,11 @@ body {
 
     .page .previous-page,
     .page .next-page {
-        /* width: 90%; */
         justify-content: space-between;
     }
 
+    .junior-title {
+        padding: 120px 50px 30px;
+    }
 
 }
