@@ -15,7 +15,7 @@ const Hero = () => {
                 <Nav />
                 <div className="main-home">
                     <div className="home-img">
-                        <h2>Cooperate Residence <br /> Upscaling Luxury  <br /> Limitless Style </h2>
+                        <h2>Corporate Residence <br /> Upscaling Luxury  <br /> Limitless Style </h2>
                     </div>
                 </div>
 

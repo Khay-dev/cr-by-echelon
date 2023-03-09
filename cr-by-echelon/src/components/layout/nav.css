@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 40px;
+    padding: 20px 40px;
     position: fixed;
     top: 0;
     right: 0;
@@ -10,24 +10,52 @@ nav {
     z-index: 9999;
 }
 
-nav .logo {
-    width: 17%;
-
+nav .nav-holder-one {
+    width: 35%;
 }
 
-.new-logo {
-    width: 5%;
+nav .nav-holder-two {
+    width: 30%;
+    text-align: center;
 }
 
-nav a {
+nav .nav-holder-three {
+    width: 35%;
+}
+
+
+
+.main-nav a {
     color: #fff;
-    font-size: 18px;
+    font-size: 40px;
 }
 
 nav .main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #073c36;
+    color: black;
+    transition: 1s;
+    transform: translateY(-100vh);
+    z-index: 100;
+}
+
+.nav-menu {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4.5rem;
+    text-align: center;
     justify-content: space-between;
-    gap: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -37,17 +65,52 @@ nav .nav-btn {
     background: transparent;
     border: none;
     outline: none;
-    display: none;
     font-size: 1.5rem;
+    color: #fff;
 }
+
+nav .responsive_nav {
+    transform: none;
+}
+
+.nav-close-btn {
+    margin-top: 10px;
+    display: block;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.book {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3rem;
+    color: #fff;
+    justify-content: flex-end;
+}
+
+.book a {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.book-2 {
+    display: none;
+}
+
+nav .logo-div {
+    width: 180px;
+}
+
+.new-logo {
+    width: 57px;
+}
+
+
 
 @media screen and (min-width:768px)and (max-width:1025px) {
     nav .logo {
         width: 25%;
-    }
-
-    .new-logo {
-        width: 7%;
     }
 
     nav .main-nav {
@@ -58,46 +121,27 @@ nav .nav-btn {
 
 @media screen and (max-width:767px) {
     nav {
-        padding: 15px 20px;
+        padding: 20px;
     }
 
-    nav .nav-btn {
+    .book-2 {
         display: block;
-        color: #fff;
     }
 
-    nav .logo {
-        width: 60%;
+    nav .logo-div {
+        width: 150px;
     }
 
     .new-logo {
-        width: 20%;
+        width: 50px;
     }
 
-    nav .main-nav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 70%;
-        width: 100%;
-        box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 40px;
-        background-color: #073c36;
-        color: black;
-        transition: 1s;
-        transform: translateY(-100vh);
-        z-index: 100;
+    .nav-holder-three {
+        display: none;
     }
 
-    nav .responsive_nav {
-        transform: none;
+    nav .nav-holder-two {
+        text-align: right;
     }
 
-    .nav-close-btn {
-        margin-top: 10px;
-    }
 }
