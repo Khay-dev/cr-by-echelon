@@ -16,18 +16,20 @@ nav .nav-holder-one {
 
 nav .nav-holder-two {
     width: 30%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav .nav-holder-three {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     width: 35%;
 }
 
-
-
 .main-nav a {
     color: #fff;
-    font-size: 40px;
 }
 
 nav .main-nav {
@@ -38,26 +40,65 @@ nav .main-nav {
     width: 100%;
     box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #073c36;
     color: black;
-    transition: 1s;
     transform: translateY(-100vh);
+    transition: transform 500ms ease-in;
     z-index: 100;
+    gap: 20px;
+    background-color: #0c2c28;
+}
+
+.first-main {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-image: linear-gradient(rgba(12, 44, 40, 0.70), rgba(12, 44, 40, 0.70)), url(../../img/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.45;
+    font-family: 'Mulish', sans-serif;
+}
+
+.bottom-details .mail-cal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bottom-details .bottom-address {
+    width: 60%;
 }
 
 .nav-menu {
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 4.5rem;
-    text-align: center;
-    justify-content: space-between;
-    margin-bottom: 30px;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #0c2c28;
+    padding: 30px;
 }
 
+.nav-menu-main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 45px;
+
+}
 
 nav .nav-btn {
     padding: 5px;
@@ -74,10 +115,16 @@ nav .responsive_nav {
 }
 
 .nav-close-btn {
-    margin-top: 10px;
+    text-align: right;
     display: block;
     color: #fff;
-    font-size: 3rem;
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    color: #fff;
 }
 
 .book {
@@ -94,32 +141,69 @@ nav .responsive_nav {
     text-transform: capitalize;
 }
 
-.book-2 {
-    display: none;
-}
-
 nav .logo-div {
     width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .new-logo {
     width: 57px;
 }
 
+.nav-22,
+.nav-22 a {
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    transition: opacity 0.3s ease;
+}
+
+.nav-22:hover {
+    opacity: 1;
+}
+
+.nav-22:not(:hover) {
+    opacity: 0.5;
+}
+
+.nav-22 span,
+.nav-22 a span {
+    font-size: 10px;
+    transform: rotateX(180);
+
+}
 
 
-@media screen and (min-width:768px)and (max-width:1025px) {
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1025px) {
     nav .logo {
         width: 25%;
     }
 
     nav .main-nav {
-        gap: 40px;
+        height: 80%;
     }
 
+    .nav-menu {
+        width: 45%;
+    }
+
+    .first-main {
+        width: 55%;
+    }
+
+    .nav-menu-main {
+        gap: 3rem;
+        margin-top: 90px;
+        font-size: 36px;
+    }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     nav {
         padding: 20px;
     }
@@ -136,12 +220,26 @@ nav .logo-div {
         width: 50px;
     }
 
-    .nav-holder-three {
+    nav .nav-holder-two {
         display: none;
     }
 
-    nav .nav-holder-two {
-        text-align: right;
+    .first-main {
+        display: none;
     }
+
+    .nav-menu {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .nav-menu-main {
+        align-items: center;
+        font-size: 35px;
+        margin-top: 55px;
+    }
+
+
+
 
 }

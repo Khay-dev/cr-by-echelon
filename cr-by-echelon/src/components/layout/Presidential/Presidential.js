@@ -1,7 +1,7 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import image1 from "../../../img/room.JPG";
-import image2 from "../../../img/junior.JPG";
+import image1 from "../../../img/room-5.jpg";
+import image2 from "../../../img/toilet-5.jpg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -21,11 +21,11 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function Presidential() {
     let facilities = [
-        { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() },
-        { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() }, { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() },
-        { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() },
-        { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() },
-        { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() }
+        { text: " Large Flat-Screen TV.", id: crypto.randomUUID() },
+        { text: "High-Speed Internet.", id: crypto.randomUUID() }, { text: "Premium Toiletries.", id: crypto.randomUUID() },
+        { text: " Spacious living room and a dining area.", id: crypto.randomUUID() },
+        { text: "24-hour room service.", id: crypto.randomUUID() },
+        { text: "Private balcony with stunning views.", id: crypto.randomUUID() }
     ]
 
     return (
@@ -81,7 +81,7 @@ export default function Presidential() {
             </Swiper>
             <div className="slide-facilities">
                 <div className="facility-title">
-                    Facilities
+                    Suite Facilities
                 </div>
                 <div className="main-facility">
                     <ul >

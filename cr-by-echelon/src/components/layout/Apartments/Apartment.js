@@ -1,27 +1,30 @@
 import Nav from "../Nav"
 import Footer from "../Footer"
-import image1 from "../../../img/junior.JPG";
-import image2 from "../../../img/gym.JPG"
-import image3 from "../../../img/room.JPG"
-import image4 from "../../../img/home.jpg"
+import image1 from "../../../img/room-1.jpg";
+import image2 from "../../../img/room-3.jpg"
+import image3 from "../../../img/room-2.jpg"
+import image4 from "../../../img/room-4.jpg"
+import image5 from "../../../img/room-5.jpg"
+
 import { Link } from "react-router-dom";
 
 import "./Apartment.css"
 const Apartment = () => {
     let apartments = [
-        { image: image1, title: "Junior Suite", details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quod labore voluptatibus nobis tempore mollitia.", id: crypto.randomUUID(), link: "/Junior" },
-        { image: image2, title: "Imperial Suite", details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quod labore voluptatibus nobis tempore mollitia.", id: crypto.randomUUID(), link: "/Imperial" },
-        { image: image3, title: "Executive Suite", details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quod labore voluptatibus nobis tempore mollitia.", id: crypto.randomUUID(), link: "/Executive" },
-        { image: image4, title: "Orthodox Suite", details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quod labore voluptatibus nobis tempore mollitia.", id: crypto.randomUUID(), link: "/Orthodox" },
-        { image: image1, title: "Presidential Suite", details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quod labore voluptatibus nobis tempore mollitia.", id: crypto.randomUUID(), link: "/Presidential" }
+        { image: image3, title: "Junior Suite", details: "Our Junior Suites are designed to provide you with the perfect blend of comfort and sophistication, featuring tasteful decor and a spacious seating area that allows you to unwind and relax after a long day of exploring", id: crypto.randomUUID(), link: "/Junior" },
+        { image: image4, title: "Imperial Suite", details: "Experience the ultimate in lavish living in our Imperial Suite, where opulent furnishings, breathtaking city views, and unparalleled luxury await to make your stay an unforgettable one.", id: crypto.randomUUID(), link: "/Imperial" },
+        { image: image2, title: "Executive Suite", details: "Elevate your stay to new heights in our Executive Suites, featuring sophisticated decor, spacious living areas, and exclusive amenities designed to cater to your every need.", id: crypto.randomUUID(), link: "/Executive" },
+        { image: image1, title: "Orthodox Room", details: "Experience a blend of tradition and luxury in our Orthodox Suites, where opulent furnishings and ornate decor pay homage to the culture of our destination, while modern amenities ensure your comfort and convenience.", id: crypto.randomUUID(), link: "/Orthodox" },
+        { image: image5, title: "Presidential Suite", details: "Live like royalty in our Presidential Suite, boasting unparalleled luxury, bespoke furnishings, and stunning views of the city skyline. Enjoy an exclusive and indulgent experience that will leave you feeling pampered and rejuvenated.", id: crypto.randomUUID(), link: "/Presidential" }
     ]
 
     return (
         <div className="section-6">
             <div className="apartment-title">
                 <Nav />
-                <h2> OUR APARTMENTS</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis nisi delectus facere dolor asperiores officiis eveniet harum architecto quasi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, porro.</p>
+                <h2> Our Rooms & Suites</h2>
+                <p className="apartment-title-p">
+                    Welcome to our collection of rooms &   suites! Whether you're traveling solo, with a partner, or with a group, we have a variety of apartments to suit your needs. All of our apartments are carefully designed and furnished to make your stay as comfortable and enjoyable as possible.</p>
             </div>
             <div id="apartment">
                 <div className="apartment-card">

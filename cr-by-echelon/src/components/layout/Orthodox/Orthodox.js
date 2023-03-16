@@ -1,7 +1,7 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import image1 from "../../../img/room.JPG";
-import image2 from "../../../img/junior.JPG";
+import image1 from "../../../img/room-1.jpg";
+import image2 from "../../../img/toilet-1.jpg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -21,18 +21,19 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function Orthodox() {
     let facilities = [
-        { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() },
-        { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() }, { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() },
-        { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() },
-        { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() },
-        { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() }
+        { text: "Wifi Service.", id: crypto.randomUUID() },
+        { text: "Flat-Screen TV.", id: crypto.randomUUID() },
+        { text: "High-Speed Internet.", id: crypto.randomUUID() },
+        { text: "Premium Toiletries.", id: crypto.randomUUID() },
+        { text: "24-hour room service.", id: crypto.randomUUID() },
+        { text: "Work desk and chair.", id: crypto.randomUUID() }
     ]
 
     return (
         <>
             <Nav />
             <div className="junior-title">
-                <h2> Orthodox Suite</h2>
+                <h2> Orthodox Room</h2>
             </div>
 
             <Swiper
@@ -81,7 +82,7 @@ export default function Orthodox() {
             </Swiper>
             <div className="slide-facilities">
                 <div className="facility-title">
-                    Facilities
+                    Room  Facilities
                 </div>
                 <div className="main-facility">
                     <ul >

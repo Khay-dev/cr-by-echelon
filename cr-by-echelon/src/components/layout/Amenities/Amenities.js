@@ -4,6 +4,7 @@ import { MdSecurity, MdWifi, MdRoomService } from "react-icons/md";
 import { FaSwimmingPool } from "react-icons/fa"
 import './Amenities.css'
 
+
 const Amenities = () => {
     let cards = [
         { name: "Restaurant", icon: <IoRestaurantSharp />, id: crypto.randomUUID() },
@@ -19,7 +20,7 @@ const Amenities = () => {
 
     return (
         <div className="section-3">
-            <div className="title">Our Services</div>
+            <div className="title" >Our Facilities</div>
             <div className="section-3-a">  {
                 cards.map((card) => (
 

@@ -7,15 +7,20 @@ import Footer from "../Footer"
 import "./home.css"
 
 
+
+
 const Hero = () => {
+
+
+
 
     return (
         <div className="home">
             <div className="hero">
                 <Nav />
-                <div className="main-home">
+                <div className="main-home" >
                     <div className="home-img">
-                        <h2>Corporate Residence <br /> Upscaling Luxury  <br /> Limitless Style </h2>
+                        <h2 >Corporate Residence <br /> Upscaling Luxury  <br /> Limitless Style </h2>
                     </div>
                 </div>
 

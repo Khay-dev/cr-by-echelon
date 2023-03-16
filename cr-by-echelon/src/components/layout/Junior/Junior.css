@@ -26,8 +26,8 @@ body {
 .swiper-slide img {
     display: block;
     width: 100%;
-    height: 100%;
     object-fit: cover;
+    object-position: center;
 }
 
 .swiper {
@@ -65,7 +65,7 @@ body {
 
 .slide-main-img {
     width: 70%;
-    height: 350px;
+    height: 450px;
 }
 
 .slide-facilities {
@@ -84,7 +84,7 @@ body {
     display: grid;
     place-items: center;
     align-items: center;
-    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
 }
 
 .main-facility ul li {
@@ -177,13 +177,15 @@ body {
         gap: 1.5rem;
     }
 
-    .page .previous-page,
-    .page .next-page {
+    .page a .previous-page,
+    .page a .next-page {
         justify-content: space-between;
+        width: 210px;
     }
 
     .junior-title {
         padding: 120px 50px 30px;
     }
+
 
 }

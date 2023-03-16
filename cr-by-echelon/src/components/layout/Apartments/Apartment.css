@@ -21,13 +21,12 @@
     color: #fff;
 }
 
-.apartment-title p {
+.apartment-title-p {
     font-family: 'Mulish', sans-serif;
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.75;
     font-weight: 400;
-    text-align: center;
     color: #fff;
     text-align: center;
 }

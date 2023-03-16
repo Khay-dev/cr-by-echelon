@@ -1,7 +1,7 @@
 import './Room.css'
-import image1 from "../../../img/room.JPG";
-import image2 from "../../../img/junior.JPG";
-import image3 from "../../../img/gym.JPG";
+import image1 from "../../../img/room-2.jpg";
+import image2 from "../../../img/room-3.jpg";
+import image3 from "../../../img/room-5.jpg";
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from "react"
 
@@ -46,7 +46,7 @@ const Room = () => {
                     <div className="room-b room" data-index={1} onClick={handleButtonClick} >Executive Suite</div>
                     <div className="room-c room" data-index={2} onClick={handleButtonClick} > Presidential Suite</div>
                 </div>
-                <Link to={"/Apartment"}><button class="custom-btn btn-11">Read More</button></Link>
+                <Link to={"/Apartment"}><button class="custom-btn btn-11">See More</button></Link>
             </div>
         </div >
     );

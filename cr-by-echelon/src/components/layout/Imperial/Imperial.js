@@ -1,7 +1,7 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import image1 from "../../../img/room.JPG";
-import image2 from "../../../img/junior.JPG";
+import image1 from "../../../img/room-4.jpg";
+import image2 from "../../../img/toilet-4.jpg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -21,11 +21,15 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function Imperial() {
     let facilities = [
-        { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() },
-        { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() }, { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() },
-        { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() },
-        { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() },
-        { text: "Lorem ipsum dolor sit amet.", id: crypto.randomUUID() }
+        { text: " Flat-Screen TV.", id: crypto.randomUUID() },
+        { text: "Premium Toiletries.", id: crypto.randomUUID() },
+        { text: "High-Speed Internet.", id: crypto.randomUUID() },
+        { text: "24-hour room service.", id: crypto.randomUUID() },
+        { text: "living room and dining area", id: crypto.randomUUID() },
+        { text: "Work desk and chair.", id: crypto.randomUUID() },
+
+
+
     ]
 
     return (
@@ -81,7 +85,7 @@ export default function Imperial() {
             </Swiper>
             <div className="slide-facilities">
                 <div className="facility-title">
-                    Facilities
+                    Suite Facilities
                 </div>
                 <div className="main-facility">
                     <ul >
@@ -97,11 +101,11 @@ export default function Imperial() {
             </div>
             <div className="page">
                 <Link to="/Junior">     <div className="previous-page">
-                    <span> <FaAngleDoubleLeft/> </span>
+                    <span> <FaAngleDoubleLeft /> </span>
                     <p>Junior Suite</p>
                 </div> </Link>
                 <Link to="/Executive">   <div className="next-page">
-                    <span> <FaAngleDoubleRight/> </span>
+                    <span> <FaAngleDoubleRight /> </span>
                     <p>Executive Suite</p>
                 </div> </Link>
             </div>

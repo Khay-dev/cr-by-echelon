@@ -1,6 +1,7 @@
 import "./Footer.css"
 import { FaAngleDoubleUp } from "react-icons/fa"
 import Image1 from "../../img/logo.png"
+
 const Footer = () => {
     let top = () => {
         window.scrollTo({ top: 0, behavior: "smooth" })
